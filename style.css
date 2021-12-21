@@ -1,0 +1,55 @@
+header{
+    background-color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+} 
+li {
+    color: white;
+    float: left;
+}  
+li a {
+    color: white;
+    display: block;
+    padding: 15px;
+    background-color: black;
+}
+.slider{
+    background-color: aqua;
+    width: 1330px;
+    height: 510px;
+    background-position: center;
+    text-align: center;
+} 
+.slider-img{
+    width: 1320px;
+    height: 500px; 
+    margin-top: 5px;
+}
+.card{
+    background-color: aqua;
+}
+.image {
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    float: left;
+  }
+.p-text{    
+    background-color: aqua;
+    margin-top: 2px;
+    text-align: justify;
+    column-count: 4;
+    column-width: 300px;
+    column-fill: balance;
+    column-gap: 30px;
+    column-rule: 3px solid black;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
